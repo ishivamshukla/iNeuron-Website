@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iNeuron</title><meta name="description" content="Educational websites can include websites that have games, videos or topic related resources that act as tools to enhance learning and supplement classroom teaching. These websites help make the process of learning entertaining and attractive to the student, especially in today's age.">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Educatinal Website,Front-end">
+    <meta name="author" content="Yogesh Dhande">
+    <link rel="icon" href="./images/ineuron-logo.png" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/responsive.css" />
+    <link 
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+   
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo"><img src="./images/ineuron-logo.png" alt="Main-Logo" /></a>
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li><a href="#top-rated" class="nav-link home-link">Courses</a>
+          </li>
+          <li><a href="#top-rated" class="nav-link one-link">One iNeuron</a></li>
+          <li><a href="#top-rated" class="nav-link job-link">Job Portal</a></li>
+          <li><a href="#top-rated" class="nav-link internship-link">Internship</a></li>
+          <li><a href="#about-section" class="nav-link about-link">About</a></li>
+          <li><a href="#blog" class="nav-link portfolio-link">Blog</a></li>
+          <li><a href="#contact-section" class="nav-link contact-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="icons" style="color: var(--white)">
+        <ion-icon name="list-outline" class="icon" id="menu-btn"></ion-icon>
+        <ion-icon name="search-outline" class="icon" id="search-btn"></ion-icon>
+        <ion-icon name="person-outline" class="icon" id="login-btn"></ion-icon>
+      </div>
+
+      <div class="search-form">
+        <form action="">
+          <input
+            type="search"
+            name=""
+            id="search-box"
+            placeholder="search here..."
+          />
+          <label for="search-box">
+            <ion-icon name="search-outline"></ion-icon>
+          </label>
+        </form>
+      </div>
+
+
+    </header>
+    <!-- home section  -->
+    <section class="home-section section" id="home-section">
+      <div class="container grid grid-two-col">
+        <div class="home-data">
+          <h1>Highest in quality, affordable in price</h1>
+          <p>
+            Digital entrepreneurs, Youtubers and content creators provide affordable courses across technologies.
+          </p>
+          <!-- <a href="#top-rated" class="btn">Explore all Courses</a> -->
+        </div>
+        <div class="home-img">
+          <img src="./images/hero-influencers1.png" alt="" class="home-pic" />
+          <div class="img-bg"></div>
+          <div class="img-bg-1"></div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- about us section  -->
+    <section class="about-section section" id="about-section">
+      <div class="container grid grid-two-col">
+        <div class="about-img grid grid-two-col">
+          <div class="img-1">
+            <img src="./images/profile.png" alt="" />
+          </div>
+          <div class="img-2">
+            <img src="./images/mysirg.jpg" alt="" />
+            <img src="./images/krishsir.jpg" alt="" />
+          </div>
+        </div>
+        <div class="about-data">
+          <h2>
+            Whether you want to learn or to share what you know you’ve come to
+            the right place
+          </h2>
+          <p>
+            World-class training and development programs developed by top
+            teachers. Build skills with courses, certificates, and degrees
+            online from world-class universities and companies.
+          </p>
+          <h3>
+            <ion-icon name="checkmark-outline"></ion-icon>Get access to 4,000+
+            of our top courses
+          </h3>
+          <h3>
+            <ion-icon name="checkmark-outline"></ion-icon>Popular topics to
+            learn now
+          </h3>
+          <h3>
+            <ion-icon name="checkmark-outline"></ion-icon>Find the right
+            instructor for you
+          </h3>
+          <a href=""><ion-icon name="play"></ion-icon>Play Now</a>
+        </div>
+      </div>
+    </section>
+
+
+        <!-- top rated learning tutorials -->
+        <section class="top-rated section" id="top-rated">
+          <h1 class="primary-heading">What you will learn</h1>
+          <div class="container">
+            <div class="top-btn">
+              <div class="btn t-btn" data-btn-num="0">Live Programs</div>
+              <div class="btn t-btn" data-btn-num="1">Affordable Programs</div>
+              <div class="btn t-btn" data-btn-num="2">Community Programs</div>
+              <div class="btn t-btn" data-btn-num="3">One Neuron</div>
+              <div class="btn t-btn" data-btn-num="4">Test Series</div>
+            </div>
+    
+            <div class="tutorials grid grid-four-col">
+              <!-- start -->
+              <div class="course t-btn--0 t-btn--1">
+                <div class="cou-img">
+                  <img src="./images/fanng.jpg" alt="" />
+                </div>
+                <div class="cou-data">
+                  <div class="cou-top">
+                    <a href="#">JavaScript</a>
+                    <p>Free</p>
+                  </div>
+                  <p href="#" class="top-heading">
+                    DSA for FAANG preparation with Python and JavaScript
+                  </p>
+                  <div class="instructor">
+                    <img src="./images/profile.png" alt="" />
+                    <p>Hitesh Chaudhary</p>
+                  </div>
+                </div>
+              </div>
+              <!-- end -->
+              <!-- start -->
+              <div class="course t-btn--0 t-btn--2">
+                <div class="cou-img">
+                  <img src="./images/mjava.jpg" alt="" />
+                </div>
+                <div class="cou-data">
+                  <div class="cou-top">
+                    <a href="#">Blockchain</a>
+                    <p>399</p>
+                  </div>
+                  <p href="#" class="top-heading">Web Designing with Devon koss</p>
+                  <div class="instructor">
+                    <img src="../images/profile.png" alt="" />
+                    <p>Hitesh Chaudhary</p>
+                  </div>
+
+                </div>
+              </div>
+              <!-- end -->
+              <!-- start -->
+              <div class="course t-btn--0 t-btn--3">
+                <div class="cou-img">
+                  <img src="./images/mjava.jpg" alt="" />
+                </div>
+                <div class="cou-data">
+                  <div class="cou-top">
+                    <a href="#">Java</a>
+                    <p>499</p>
+                  </div>
+                  <p href="#" class="top-heading">
+                    Mastering in  the DSA with Java
+                  </p>
+                  <div class="instructor">
+                    <img src="./images/profile.png" alt="" />
+                    <p>Hitesh Chaudhary</p>
+                  </div>
+                </div>
+              </div>
+              <!-- end -->
+              <!-- start -->
+              <div class="course t-btn--0 t-btn--4">
+                <div class="cou-img">
+                  <img src="./images/fanng.jpg" alt="" />
+                </div>
+                <div class="cou-data">
+                  <div class="cou-top">
+                    <a href="#">Andriod</a>
+                    <p>400</p>
+                  </div>
+                  <p href="#" class="top-heading">
+                    drawing and painting course for children
+                  </p>
+                  <div class="instructor">
+                    <img src="./images/profile.png" alt="" />
+                    <p>Hitesh Chaudhary</p>
+                  </div>
+                </div>
+              </div>
+              <!-- end -->
+              <!-- start -->
+              <div class="course t-btn--0 t-btn--4">
+                <div class="cou-img">
+                  <img src="./images/mjava.jpg" alt="" />
+                </div>
+                <div class="cou-data">
+                  <div class="cou-top">
+                    <a href="#">Wordpress And PHP </a>
+                    <p>800</p>
+                  </div>
+                  <p href="#" class="top-heading">
+                   Full wordpress beginner to advanced course
+                  </p>
+                  <div class="instructor">
+                    <img src="./images/profile.png" alt="" />
+                    <p>Hitesh Chaudhary</p>
+                  </div>
+
+                </div>
+              </div>
+              <!-- end -->
+              <!-- start -->
+              <div class="course t-btn--0 t-btn--4">
+                <div class="cou-img">
+                  <img src="./images/digitalm.jpg" alt="" />
+                </div>
+                <div class="cou-data">
+                  <div class="cou-top">
+                    <a href="#">Digital Marketing & Youtuber</a>
+                    <p>400</p>
+                  </div>
+                  <p href="#" class="top-heading">
+                    complete digital marketing and socail media course
+                  </p>
+                  <div class="instructor">
+                    <img src="./images/profile.png" alt="" />
+                    <p>Hitesh Chaudhary</p>
+                  </div>
+                </div>
+              </div>
+              <!-- end -->
+              <!-- start -->
+              <div class="course t-btn--0 t-btn--1">
+                <div class="cou-img">
+                  <img src="./images/digitalm.jpg" alt="" />
+                </div>
+                <div class="cou-data">
+                  <div class="cou-top">
+                    <a href="#">Data Structure & Algorithm</a>
+                    <p>900</p>
+                  </div>
+                  <p href="#" class="top-heading">Online Full data Structure course </p>
+                  <div class="instructor">
+                    <img src="./images/profile.png" alt="" />
+                    <p>Hitesh Chaudhary</p>
+                  </div>
+                </div>
+              </div>
+              <!-- end -->
+              <!-- start -->
+              <div class="course t-btn--0 t-btn--2">
+                <div class="cou-img">
+                  <img src="./images/fanng.jpg" alt="" />
+                </div>
+                <div class="cou-data">
+                  <div class="cou-top">
+                    <a href="#">Full Stack Developer</a>
+                    <p>800</p>
+                  </div>
+                  <p href="#" class="top-heading">the ultimate app making course</p>
+                  <div class="instructor">
+                    <img src="./images/profile.png" alt="" />
+                    <p>Hitesh Chaudhary</p>
+                  </div>
+                </div>
+              </div>
+              <!-- end -->
+            </div>
+          </div>
+        </section>
+    
+
+
+    <!-- Category -->
+    <section class="cat-section section" id="cat-section">
+      <h1 class="primary-heading">Featured topics by category</h1>
+      <div class="container grid grid-four-col">
+        <div class="category">
+          <img src="./images/Design.png" alt="" />
+          <h3>Design</h3>
+        </div>
+        <div class="category">
+          <img src="./images/chemistry.png" alt="" />
+          <h3>Developer</h3>
+        </div>
+        <div class="category">
+          <img src="./images/technology.png" alt="" />
+          <h3>AL/ML</h3>
+        </div>
+        <div class="category">
+          <img src="./images/medical.png" alt="" />
+          <h3>DevOps</h3>
+        </div>
+        <div class="category">
+          <img src="./images/math.png" alt="" />
+          <h3>Data Science</h3>
+        </div>
+        <div class="category">
+          <img src="./images/testing.png" alt="" />
+          <h3>Testing</h3>
+        </div>
+        <div class="category">
+          <img src="./images/language.png" alt="" />
+          <h3>language</h3>
+        </div>
+        <div class="category">
+          <img src="./images/art-book.png" alt="" />
+          <h3>Teaching</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Details -->
+    <section class="det-section section" id="det-section">
+      <h1 class="primary-heading">
+        Whether you want to learn ,<br />
+        you've come to the right place
+      </h1>
+      <div class="container det grid grid-three-col">
+        <div class="details">
+          <img src="./images/f-icon-1.png" alt="" />
+          <h2>155,000 video courses</h2>
+          <p>
+            Whether you want to learn or to share what you know, you've come to
+            the right place.
+          </p>
+        </div>
+        <div class="details">
+          <img src="./images/f-icon-2.png" alt="" />
+          <h2>Top industry instructors</h2>
+          <p>
+            Whether you want to learn or to share what you know, you've come to
+            the right place.
+          </p>
+        </div>
+        <div class="details">
+          <img src="./images/f-icon-3.png" alt="" />
+          <h2>lifetime access</h2>
+          <p>
+            Whether you want to learn or to share what you know, you've come to
+            the right place.
+          </p>
+        </div>
+      </div>
+      <div class="container new-con grid grid-two-col">
+        <div class="info in-1">
+          <p>Become an instructor</p>
+          <h2>Best Instructors from around the world</h2>
+          <a href="#" class="btn">Start Teaching</a>
+        </div>
+        <div class="info in-2">
+          <p>For Business</p>
+          <h2>Get unlimited access to 6,000+ of courses</h2>
+          <a href="#" class="btn">Try For Business</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonials -->
+    <section class="testimonial section" id="testimonial">
+      <h1 class="primary-heading">What people say about us</h1>
+      <div class="container">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide grid-two-col grid">
+              <img src="./images/person.png" alt="" />
+              <div class="test-data">
+                <h3>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Harum est ipsa illum recusandae. Doloribus corporis earum
+                  molestiae quia consequatur voluptatibus.
+                </h3>
+                <h2>James Smith</h2>
+                <p>Student</p>
+              </div>
+            </div>
+            <div class="swiper-slide grid-two-col grid">
+              <img src="./images/test - 2.jpeg" alt="" />
+              <div class="test-data">
+                <h3>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Harum est ipsa illum recusandae. Doloribus corporis earum
+                  molestiae quia consequatur voluptatibus.
+                </h3>
+                <h2>James Smith</h2>
+                <p>Student</p>
+              </div>
+            </div>
+            <div class="swiper-slide grid-two-col grid">
+              <img src="./images/test - 3.jpg" alt="" />
+              <div class="test-data">
+                <h3>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Harum est ipsa illum recusandae. Doloribus corporis earum
+                  molestiae quia consequatur voluptatibus.
+                </h3>
+                <h2>James Smith</h2>
+                <p>Student</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <!-- Work Number Count Section  -->
+      <div class="count-section section-work-data">
+        <div class="container grid grid-four-col">
+          <div>
+            <h2 class="count-number" data-num="778">0+</h2>
+            <p>Hours Of Learning</p>
+          </div>
+          <div>
+            <h2 class="count-number" data-num="1300">0+</h2>
+            <p>Enrolled Learners</p>
+          </div>
+          <div>
+            <h2 class="count-number" data-num="658">0+</h2>
+            <p>Online Instructors</p>
+          </div>
+          <div>
+            <h2 class="count-number" data-num="500">0+</h2>
+            <p>Satisfaction rate</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- blog -->
+    <section class="blog section" id="blog">
+      <h1 class="primary-heading">Get from our news & article</h1>
+      <div class="container grid grid-three-col">
+        <div class="news">
+          <img src="./images/news - 1.jpeg" alt="" />
+          <div class="news-data">
+            <div class="user-name">
+              <div class="user">
+                <ion-icon name="person-outline"></ion-icon>
+                <p>Fred Hyman</p>
+              </div>
+              <div class="user">
+                <ion-icon name="chatbox-outline"></ion-icon>
+                <p>26 comments</p>
+              </div>
+            </div>
+            <h2>thoughts for educators on school reopening</h2>
+            <p>
+              In order to write the perfect blog post, you need to break your
+              content up into paragraphs....
+            </p>
+          </div>
+        </div>
+        <div class="news">
+          <img src="./images/news - 2.jpeg" alt="" />
+          <div class="news-data">
+            <div class="user-name">
+              <div class="user">
+                <ion-icon name="person-outline"></ion-icon>
+                <p>Fred Hyman</p>
+              </div>
+              <div class="user">
+                <ion-icon name="chatbox-outline"></ion-icon>
+                <p>62 comments</p>
+              </div>
+            </div>
+            <h2>information about teacher certification</h2>
+            <p>
+              In order to write the perfect blog post, you need to break your
+              content up into paragraphs....
+            </p>
+          </div>
+        </div>
+        <div class="news">
+          <img src="./images/news - 3.jpeg" alt="" />
+          <div class="news-data">
+            <div class="user-name">
+              <div class="user">
+                <ion-icon name="person-outline"></ion-icon>
+                <p>Fred Hyman</p>
+              </div>
+              <div class="user">
+                <ion-icon name="chatbox-outline"></ion-icon>
+                <p>21 comments</p>
+              </div>
+            </div>
+            <h2>we are changing the way the world learns</h2>
+            <p>
+              In order to write the perfect blog post, you need to break your
+              content up into paragraphs....
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container ads grid grid-two-col ">
+          <div class="ad-data">
+            <h2>Start for Business</h2>
+            <p>Get unlimited access to 5,500+ of our top courses for your team</p>
+            <a href="#" class="btn">start for business</a>
+          </div>
+          <div class="ad-img">
+            <img src="./images/business.png" alt="">
+          </div>
+      </div>
+    </section>
+
+    <!-- contact  -->
+    <section class="contact-section section" id="contact-section">
+        <h1 class="primary-heading">Get Support from our Team</h1>
+        <div class="container boxes grid grid-three-col ">
+            <div class="contact-box">
+                <ion-icon name="call-outline"></ion-icon>
+                <h2>Telephone</h2>
+                <p>+9876543210</p>
+                <p>+9876543210</p>
+            </div>
+            <div class="contact-box">
+                <ion-icon name="mail-outline"></ion-icon>
+                <h2>Our Mail</h2>
+                <p>info@ineuron.io</p>
+                <p>info@ineuron.io</p>
+            </div>
+            <div class="contact-box">
+                <ion-icon name="location-outline"></ion-icon>
+                <h2>Location</h2>
+                <p>17th Floor tower A Brigade Signature Towers,Sannatammanahalli,</p>
+                <p>Bengaluru, Karnataka 562129, India</p>
+            </div>
+        </div>
+        <div class="container contact-container">
+            <form action="">
+                <div class="contact-det grid grid-two-col">
+                    <input type="text" name="" placeholder="First Name">
+                    <input type="text" name="" placeholder="Last Name">
+                    <input type="email" name="" placeholder="Your Email">
+                    <input type="text" name="" placeholder="Your Subject">
+                </div>
+                <textarea name="" placeholder="Your Message" id="" cols="30" rows="10"></textarea>
+                <a href="#" class="btn">Send Message</a>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <Footer class="section footer">
+        <div class="container grid grid-four-col">
+            <div class="f-about">
+                <a href="#" class="logo"><img src="/images/ineuron-logo.png" alt="Main-Logo" /></a>
+                <p>We support programs that create advancement for people</p>
+                <div class="f-social-links">
+                    <a href="https://www.instagram.com/?hl=en" target="_blank"><ion-icon class="icon" name="logo-instagram"></ion-icon></a>
+                    <a href="https://www.facebook.com/" target="_blank"><ion-icon class="icon" name="logo-facebook"></ion-icon></a>
+                    <a href="https://discord.com/" target="_blank"><ion-icon class="icon" name="logo-discord"></ion-icon></a>
+                </div>
+            </div>
+
+            <div class="f-links">
+                <h3>Products</h3>
+                <ul>
+                    <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#about-section">About us</a></li>
+                    <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#top-rated">Internship portal</a></li>
+                    <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#top-rated">Job portal</a></li>
+                    <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#top-rated">Become an affiliate</a></li>
+                    <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#top-rated">Hall of fame</a></li>
+                    <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#blog">Blog</a></li>
+                    <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#contact-section">Contact us</a></li>
+
+                </ul>
+            </div>
+
+            <div class="f-service">
+                <h3>Company</h3>
+                <ul>
+                    <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#portfolio-section">FAQs</a></li>
+                    <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#portfolio-section">Job assistance</a></li>
+                    <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#portfolio-section">Job guarantee</a></li>
+                    <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#portfolio-section">Hack-A-Thon</a></li>
+                    <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#portfolio-section">Job guarantee</a></li>
+                    <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#portfolio-section">Privacy policy</a></li>
+                    <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#portfolio-section">Terms and conditions</a></li>
+
+                </ul>
+            </div>
+
+            <div class="f-address"> 
+                <h3> Have A Questions? </h3>
+                <address>
+                  <div>
+                    <p><span><ion-icon name="location-outline"></ion-icon></span> <a href="https://goo.gl/maps/egiuCAXr4Xpg5F3z8">Bengaluru, India</a> </p>
+                  </div>    
+                  <div>
+                    <p><span><ion-icon name="call-outline"></ion-icon></span> <a href="tel:+91987654321"> +91 9876543210 </a></p>
+                  </div>
+                  <div>
+                    <p><span><ion-icon name="mail-outline"></ion-icon></span> <a href="mailto:info@nevillejarvis.com"> info@ineuron.io </a> </p>
+                  </div>
+                </address>
+              </div>
+
+        </div>
+
+            <!-- <div class="credits"> © Copyright 2022 Shivam Shukla All rights reserved.</div> -->
+            <div class="scrollTop-style">
+                <ion-icon name="arrow-up-outline" class="scroll-top"></ion-icon>
+            </div>
+    </Footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  </body>
+</html>

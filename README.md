@@ -7,6 +7,8 @@
 
 ## Created by Shivam Shukla
 
+[LIVE](https://ineuron-ai.netlify.app/)
+
 ---
 
 ## Hackathon for Javascript live batch Challenge

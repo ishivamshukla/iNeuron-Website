@@ -521,7 +521,7 @@ top rated
 .course .cou-top p{
     font-size: 1.8rem;
     font-weight: 800;
-    color: var(--heading);
+    color: #000000;
 }
 .course .top-heading{
     font-size: 2rem;
@@ -552,6 +552,10 @@ top rated
     max-width: 4.5rem;
     border-radius: 50%;
 }
+.instructor p{
+    color: #000000;
+}
+
 
 .t-btn-active{
     transform: translateY(-1.2rem);
@@ -1006,9 +1010,11 @@ footer
     color: var(--para);
     text-transform: capitalize;
     transition: all 0.3s linear;
+    font-weight: 500;
 }
 .f-address a{
     transition: all 0.3s linear;
+
 }
 .f-address span,
 .f-links span,

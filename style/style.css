@@ -477,12 +477,14 @@ top rated
 }
 .top-btn{
     text-align: center;
+    border-radius: 0.5rem;
 }
 .top-btn .btn{
     margin: 2rem 1rem;
     margin-bottom: 4rem;
     padding: 10px 15px;
     font-size: 1.5rem;
+    border-radius: 0.5rem;
 }
 .tutorials.grid{
     gap: 4rem;
@@ -559,40 +561,175 @@ top rated
     display: none;
 }
 /***************************
-category
+  Event
 ***************************/
-.cat-section .container{
-    margin-top: 7rem;
-}
-.cat-section .container.grid{
-    gap: 6rem;
-}
-.category{
+
+.event {
+    padding: 15px 80px;
+    background: hsl(0, 0%, 100%);
+  }
+  
+  .event-left {
+    position: relative;
+    max-width: max-content;
+    margin-bottom: 50px;
+  }
+  
+  .event .banner-img {
+    width: auto;
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+.play a {
     display: flex;
     align-items: center;
-    justify-content: center;
-    background: var(--bg-2);
-    padding: 2rem ;
-    border-radius: 1rem;
+    font-size: 3rem;
+    font-weight: 500;
+    color: #072f60;
     cursor: pointer;
-    transition: all 0.3s ease-in;
+    margin-top: 6rem;
+    margin-left: 20px;
+
 }
-.category:hover{
-    background: var(--heading);
-}
-.category:hover h3{
+
+.play a ion-icon{
+    padding: 1.3rem;
+    background: var(--btn-bg);
     color: var(--white);
+    font-size: 3.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+    cursor: pointer;
+    transition: all 0.3s linear;
 }
-.category img{
-    max-width: 6rem;
-    margin-right: 2.5rem;
-}
-.category h3{
-    font-size: 2.3rem;
-    font-weight: 600;
-    color: var(--heading);
-    text-transform: capitalize;
-}
+
+  
+  .event .section-subtitle {
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: 800;
+    color: #233c7b;
+  }
+  
+  .event .section-title {
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #072f60;
+  }
+  
+  .event-card-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .event-card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 30px 25px;
+    box-shadow: 0 10px 30px hsla(0, 0%, 0%, 0.1);
+    border-right: 5px solid transparent;
+    transition: 0.25s ease;
+  }
+  
+  .event-card .content-left {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    box-shadow: 0 16px 0 -15px #072f60;
+  }
+  
+  .event-card .day {
+    font-size: 30px;
+    font-weight: 700;
+    color: hsl(216, 98%, 52%);
+  }
+  
+  .event-card .month {
+    font-size: 15px;
+    font-weight: 20px;
+    color: hsl(216, 98%, 52%);
+  }
+  
+  .event .schedule {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .event .schedule p {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: hsl(0, 0%, 47%);
+  }
+  
+  .event .schedule .time {
+    padding-right: 20px;
+    margin-right: 20px;
+    box-shadow: 4px 0 0 -3px hsl(0, 0%, 80%);
+  }
+  
+  .event-card .event-name {
+    color: hsl(229, 84%, 12%);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    transition: 0.25s ease;
+  }
+  
+  .event-card:hover {
+    border-color: #072f60;
+  }
+  
+  .event-card:hover .event-name {
+    color: #072f60;
+  }
+
+
+  .event .play { right: -20px; }
+
+  .event-card {
+    display:     flex;
+    align-items: center;
+    text-align: left;
+  }
+
+  .event-card .content-left {
+    width: 100px;
+    padding-bottom: 0;
+    margin-bottom:  0;
+    padding-right: 15px;
+    margin-right:  25px;
+    box-shadow: 1px 0 0 0 #072f60;
+  }
+
+  .event .schedule {
+    justify-content: start;
+    margin-bottom: 5px;
+  }
+
+  .event-card .event-name { text-align: left; }
+
+  .event .play { right: -100px; }
+
+  .event {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 50px;
+    align-items: center;
+  }
+
+  .event-left { margin-bottom: 0; }
+
+  .event .play { right: -10px; }
+
 /***************************
 details
 ***************************/
@@ -644,6 +781,9 @@ details
     font-size: 2.8rem;
     margin-bottom: 1rem;
 }
+.btn{ 
+    border-radius: 0.5rem;
+} 
 /***************************
 Testimonials
 ***************************/

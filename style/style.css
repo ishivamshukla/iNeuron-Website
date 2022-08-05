@@ -633,15 +633,11 @@ top rated
   .event-card:hover .event-name {
     color: #072f60;
   }
-
-
-
-  /* .event-section .schedule {
+  .event-section .schedule {
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
-  }  */
-  
+  }  
   .event-section .schedule p {
     font-family: "Roboto", sans-serif;
     font-size: 15px;
@@ -662,10 +658,6 @@ top rated
     text-align: center;
     transition: 0.25s ease;
   }
-  
-
-
-
 
   .event-card {
     display:     flex;

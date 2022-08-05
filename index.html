@@ -32,13 +32,7 @@
         </ul>
       </nav>
 
-      <div class="icons" style="color: var(--white)">
-        <ion-icon name="list-outline" class="icon" id="menu-btn"></ion-icon>
-        <ion-icon name="search-outline" class="icon" id="search-btn"></ion-icon>
-        <ion-icon name="person-outline" class="icon" id="login-btn"></ion-icon>
-      </div>
-
-      <div class="search-form">
+      <!-- <div class="search-form">
         <form action="">
           <input
             type="search"
@@ -50,6 +44,12 @@
             <ion-icon name="search-outline"></ion-icon>
           </label>
         </form>
+      </div> -->
+
+      <div class="icons" style="color: var(--white)">
+        <ion-icon name="list-outline" class="icon" id="menu-btn"></ion-icon>
+        <ion-icon name="search-outline" class="icon" id="search-btn"></ion-icon>
+        <ion-icon name="person-outline" class="icon" id="login-btn"></ion-icon>
       </div>
 
 
@@ -289,8 +289,11 @@
      
 <!-- Event  -->
 
-    <section class="event">
-      <div class="event-left">
+    <section class="event-section section" id="event-section">
+
+
+      <div class="container grid grid-two-col">
+
         <div class="event-banner">
           <img
             src="./images/event1.png"
@@ -299,14 +302,11 @@
           />
         </div>
 
-      </div>
-
-      <div class="event-right">
-        <p class="section-subtitle">Our Events</p>
-
-        <h2 class="section-title">Join Our Live Hackathon</h2>
-
         <div class="event-card-group">
+          <div class="event-data">
+            <p class="section-subtitle">Our Events</p>
+            <h2 class="section-title">Join Our Live Hackathon</h2>
+           </div>
           <div class="event-card">
             <div class="content-left">
               <p class="day">1</p>
@@ -358,11 +358,12 @@
               >
             </div>
           </div>
+          <div class="play">
+            <a href=""><ion-icon name="play"></ion-icon>Watch Us !</a>
+  
+          </div>
         </div>
-        <div class="play">
-          <a href=""><ion-icon name="play"></ion-icon>Watch Us !</a>
 
-        </div>
       </div>
     </section>
 

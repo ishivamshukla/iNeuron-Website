@@ -149,6 +149,25 @@
     .img-bg-1{
        display: none;
     }
+    .event-section{
+        height: auto;
+    }
+    .event-pic{
+        max-width: 100%;
+    }
+    .event-section .grid-two-col{
+        grid-template-columns: 1fr;
+    }
+    .event-section .grid{
+        gap: 0rem;
+    }
+    .event-data h1 {
+        font-size: 4.7rem;
+    }
+    .event-data{
+        text-align: center;
+        align-items: center;
+    }
     .about-section .container.grid-two-col{
         grid-template-columns: 1fr;
     }
